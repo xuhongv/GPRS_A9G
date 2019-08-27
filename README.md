@@ -41,10 +41,15 @@
 git clone --recursive https://github.com/xuhongv/GPRS_A9G
 ```
 ---
+
 ##### 2. 检查代码完整性
 
-下载完后请检查目录`platform/csdk`目录写是否包含`debug`、`release`目录。
-如果没有，则是下载方式错误，请仔细阅读第一步下载正确的文件
+下载完后请检查目录`platform/csdk`目录写是否包含`debug`、`release`目录。如果没有，则是下载方式错误，请仔细阅读第一步下载正确的文件！
+
+
+##### 3. 搭建编译环境
+
+请移步到官网文档搭建：[windows环境](https://ai-thinker-open.github.io/GPRS_C_SDK_DOC/zh/c-sdk/kai-fa-huan-jing-an-zhuang.html)
 
 
 ## (官网文档) 开发文档
