@@ -29,28 +29,32 @@
 </p>
 
 
-## (二) SDK
+## (二) 如何编译
 
 
-#### 如何编译
-
-
-##### 1. 下载代码
+#### 1. 下载代码
 
 ```
 git clone --recursive https://github.com/xuhongv/GPRS_A9G
 ```
 ---
 
-##### 2. 检查代码完整性
+#### 2. 检查代码完整性
 
 下载完后请检查目录`platform/csdk`目录写是否包含`debug`、`release`目录。如果没有，则是下载方式错误，请仔细阅读第一步下载正确的文件！
 
-
-##### 3. 搭建编译环境
+#### 3. 搭建编译环境
 
 请移步到官网文档搭建：[windows环境](https://ai-thinker-open.github.io/GPRS_C_SDK_DOC/zh/c-sdk/kai-fa-huan-jing-an-zhuang.html)
 
+#### 4. 编译工程
+
+比如编译这个 微信小程序定位demo，可以cd 到本工程目录，然后：
+
+```
+ ./build.bat demo mqtt
+ 
+```
 
 ## (官网文档) 开发文档
 
