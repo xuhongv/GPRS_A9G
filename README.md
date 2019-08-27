@@ -19,11 +19,11 @@
 我使用的是A9/A9G开发板，方便开发和调试！
 
 
-##### pudding开发板引脚图
+##### 开发板引脚图
 
-![](./doc/assets/pudding_pin.png)</br>
-
->  RDA8955芯片或者其相关模块理论上也可使用本SDK
+<p align="center">
+<img src ="./doc/assets/pudding_pin.png"/>
+</p>
 
 
 ## (二) SDK
