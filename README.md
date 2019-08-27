@@ -22,20 +22,20 @@
 ##### 开发板引脚图
 
 <p align="center">
-<img src ="./doc/assets/pudding_pin.png"/>
+<img src ="./doc/assets/sheet.png"/>
 </p>
 
 
 ## (二) SDK
 
 
-#### 获得SDK
+#### 如何编译
 
 
 ##### 1. 下载代码
 
 ```
-git clone https://github.com/Ai-Thinker-Open/GPRS_C_SDK.git --recursive
+git clone --recursive https://github.com/xuhongv/GPRS_A9G
 ```
 ---
 ##### 2. 检查代码完整性
