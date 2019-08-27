@@ -1,0 +1,10 @@
+build
+hex
+*.vscode
+ftest
+platform/compilation/fota/unix
+*.o
+*.lo
+*.d
+*.la
+
