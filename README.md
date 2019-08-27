@@ -1,52 +1,22 @@
 [安信可GPRS模块A9g学习之路](https://github.com/xuhongv/GPRS_A9G)
 =====
 
+因为大学时候未好好玩够 2G模块的 SDK 开发，所以出来社会，必须把这个玩下，于是乎，看中了安信可的 A9g 模块，因为它支持 SDK 内核开发，而且是 C 语言开发，集成了很多好玩的 demo ；
 
+虽然现在 2g网络逐渐减弱，甚至联通都放弃了2g网络，但是有中国移动在坚持，所以，我相信 2g网络还是不会被取代的！
 
 这个是我安信可GPRS模组片上(SoC)开发SDK C语言版的一些学习历程，A9G模块内核是基于RDA8955芯片的。
 
 
 ## (一) 硬件
 
-### 1. A9: GPRS 模块
 
-![](./doc/assets/A9.png)</br>
 
-##### 特征
-
-  * 32位内核，主频高达312MHz，4k指令缓存，4k数据缓存
-  * 多达29个GPIO（两个GPIO作为下载口）
-  * 实时时钟、闹钟
-  * 1个USB1.1接口
-  * 2个带流控的UART接口（+1个下载调试串口）
-  * 2个SPI接口
-  * 3个I<sup>2</sup>C接口
-  * 1个SDMMC控制器（接口）
-  * 2个10位ADC接口
-  * 32Mb(4MB) SPI NOR Flash
-  * 32Mb(4MB) DDR PSRAM
-  * 8kHz、13Bits/sample ADC mic
-  * 48kHz、16bits/sample DAC Audio
-  * 电源管理单元：锂电池充电管理、集成DC-DC及LDOs、可变化的IO电压
-  * 18.8 x 19.2 mm SMD封装
-  * 四频GSM/GPRS（800/900/1800/1900MHz)
-  * 语音通话
-  * 短信服务
-
-### 2. A9G: GPRS+GPS+BDS模块
- 
-![](./doc/assets/A9G.png)</br>
-
-##### 特征
-
-  * A9所有特征
-  * 集成GPS+BDS(内部和GPRS串口2连接)
-
-### 3. A9/A9G GPRS(+GPS+BDS) 开发板
+### 1. A9/A9G GPRS(+GPS+BDS) 开发板
 
 ![](./doc/assets/A9G_dev.png)</br>
 
-A9/A9G开发板，方便开发和调试
+我使用的是A9/A9G开发板，方便开发和调试！
 
 
 ##### pudding开发板引脚图
