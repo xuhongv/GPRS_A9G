@@ -14,9 +14,12 @@
 
 ### 1. A9/A9G GPRS(+GPS+BDS) 开发板
 
-![](./doc/assets/A9G_dev.png)</br>
 
 我使用的是A9/A9G开发板，方便开发和调试！
+
+<p align="center">
+<img src ="./doc/assets/A9G_dev.png"/>
+</p>
 
 
 ##### 开发板引脚图
