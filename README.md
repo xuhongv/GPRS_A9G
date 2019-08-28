@@ -8,8 +8,9 @@
 &nbsp;&nbsp;&nbsp;这个是我安信可GPRS模组片上(SoC)开发SDK C语言版的一些学习历程，A9G模块内核是基于RDA8955芯片的。
 
 
-## (一) 硬件
 
+
+## (一) 硬件
 
 
 ### 1. A9/A9G GPRS(+GPS+BDS) 开发板
@@ -49,10 +50,19 @@ git clone --recursive https://github.com/xuhongv/GPRS_A9G
 
 #### 4. 编译工程
 
-比如编译这个 微信小程序定位demo，可以cd 到本工程目录，然后：
+本仓库包含有官网的demo和我写的demo工程；
+
+编译官方demo步骤：比如编译这个 gpio ，可以cd 到本工程目录，然后：
 
 ```
- ./build.bat demo mqtt
+ ./build.bat demo gpio
+ 
+```
+
+编译我写的demo步骤：比如编译这个 微信小程序追踪器 ，可以cd 到本工程目录，然后：
+
+```
+ ./build.bat mycode mini_tracer
  
 ```
 
