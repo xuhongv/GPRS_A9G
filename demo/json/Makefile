@@ -3,7 +3,7 @@
 ## ----------------------------------------------------------- ##
 
 # Name of the module
-LOCAL_NAME := demo/mqtt
+LOCAL_NAME := demo/json
 
 # List of submodules which contain code we need to include in the final lib
 LOCAL_API_DEPENDS := \
@@ -11,6 +11,8 @@ LOCAL_API_DEPENDS := \
 LOCAL_ADD_INCLUDE := include\
                     include/std_inc \
                     include/api_inc \
+                    libs/cjson/src \
+                    
 
 
 # Set this to any non-null string to signal a module which 

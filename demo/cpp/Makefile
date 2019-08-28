@@ -3,7 +3,7 @@
 ## ----------------------------------------------------------- ##
 
 # Name of the module
-LOCAL_NAME := demo/mqtt
+LOCAL_NAME := demo/cpp
 
 # List of submodules which contain code we need to include in the final lib
 LOCAL_API_DEPENDS := \
@@ -27,7 +27,7 @@ MYCFLAGS +=
 ##	List all your sources here           ##
 ## ------------------------------------- ##
 C_SRC := ${notdir ${wildcard src/*.c}}
-
+CXX_SRC := ${notdir ${wildcard src/*.cpp}}
 ## ------------------------------------- ##
 ##  Do Not touch below this line         ##
 ## ------------------------------------- ##

@@ -3,9 +3,10 @@
 
 
 #define BROKER_IP  "mqtt.neucrack.com"
-#define BROKER_PORT 1883
-#define CLIENT_USER "mqtt"
-#define CLIENT_PASS "mqtt"
+#define BROKER_PORT 8883
+#define BROKER_HOSTNAME "mqtt.neucrack.com"
+#define CLIENT_USER NULL
+#define CLIENT_PASS NULL
 #define SUBSCRIBE_TOPIC "$neucrack/app"
 #define PUBLISH_TOPIC   "$neucrack/gprs"
 #define PUBLISH_INTERVAL 10000 //10s

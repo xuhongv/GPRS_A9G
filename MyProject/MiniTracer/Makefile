@@ -5,12 +5,17 @@
 # Name of the module
 LOCAL_NAME := demo/mqtt
 
-# List of submodules which contain code we need to include in the final lib
-LOCAL_API_DEPENDS := \
+# Add includes from other modules we do not wish to link to
+LOCAL_API_DEPENDS := libs/gps \
+                     libs/utils \ 
 
 LOCAL_ADD_INCLUDE := include\
                     include/std_inc \
                     include/api_inc \
+                    libs/gps/minmea/src \
+                    libs/cjson/src \
+
+
 
 
 # Set this to any non-null string to signal a module which 

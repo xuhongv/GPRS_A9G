@@ -3,7 +3,7 @@
 ## ----------------------------------------------------------- ##
 
 # Name of the module
-LOCAL_NAME := demo/mqtt
+LOCAL_NAME := demo/oled_spi
 
 # List of submodules which contain code we need to include in the final lib
 LOCAL_API_DEPENDS := \
@@ -11,7 +11,7 @@ LOCAL_API_DEPENDS := \
 LOCAL_ADD_INCLUDE := include\
                     include/std_inc \
                     include/api_inc \
-
+                    libs/lcd/ssd1306/include 
 
 # Set this to any non-null string to signal a module which 
 # generates a binary (must contain a "main" entry point). 
