@@ -7,7 +7,7 @@
 
 &nbsp;&nbsp;&nbsp;这个是我安信可GPRS模组片上(SoC)开发SDK C语言版的一些学习历程，A9G模块内核是基于RDA8955芯片的。
 
-
+&nbsp;&nbsp;&nbsp;为了严格区分官网demo和我写的工程，官网的demo原封不动地在demo文件夹里面，同时，我自己写的在 mycode 这个文件夹里面。
 
 
 ## (一) 硬件
