@@ -2,7 +2,7 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-08-03 19:57:03
- * @LastEditTime: 2019-08-27 18:08:30
+ * @LastEditTime: 2019-08-28 10:03:18
  * @LastEditors: Please set LastEditors
  */
 #include "stdbool.h"
@@ -17,7 +17,7 @@
 #include "api_network.h"
 #include "api_socket.h"
 #include "api_info.h"
-#include "demo_mqtt.h"
+#include "mini_tracer.h"
 
 #include "buffer.h"
 #include "gps_parse.h"
@@ -558,7 +558,7 @@ void MainTask(void *pData)
     }
 }
 
-void mqtt_Main(void)
+void mini_tracer_Main(void)
 {
     mainTaskHandle = OS_CreateTask(MainTask,
                                    NULL, NULL, MAIN_TASK_STACK_SIZE, MAIN_TASK_PRIORITY, 0, 0, MAIN_TASK_NAME);

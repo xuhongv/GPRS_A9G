@@ -30,6 +30,15 @@ if "%1%"x =="demo"x (
     sed -i "15i\PROJECT_PATH += demo/%2%" Makefile
     goto compile
     REM goto end_exit
+ )else if "%1%"x =="mycode"x (
+    set PROJ_NAME=%2%
+    if "%3%"x =="release"x (
+        set compileMode=release
+    )
+    sed -i "15d" Makefile
+    sed -i "15i\PROJECT_PATH += mycode/%2%" Makefile
+    goto compile
+    REM goto end_exit
 )else (
     if "%1%"x =="clean"x (
         goto clean_project

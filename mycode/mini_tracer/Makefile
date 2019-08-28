@@ -3,7 +3,7 @@
 ## ----------------------------------------------------------- ##
 
 # Name of the module
-LOCAL_NAME := demo/mqtt
+LOCAL_NAME := mycode/mini_tracer
 
 # Add includes from other modules we do not wish to link to
 LOCAL_API_DEPENDS := libs/gps \
@@ -14,7 +14,6 @@ LOCAL_ADD_INCLUDE := include\
                     include/api_inc \
                     libs/gps/minmea/src \
                     libs/cjson/src \
-
 
 
 
